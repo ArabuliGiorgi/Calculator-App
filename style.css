@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.2s;
 }
 main{
     width: 100%;
@@ -69,11 +70,35 @@ main{
     align-items: center;
     padding: 0 5px;
 }
-.circle{
+#switch:hover{
+    cursor: pointer;
+}
+.circle1{
     background-color: #D03F2F;
     width: 16px;
     height: 16px;
     border-radius: 50px;
+}
+.circle1:active{
+    background-color: #F96B5B;
+}
+.circle2{
+    background-color: #C85402;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+}
+.circle2:active{
+    background-color: #FF8A38;
+}
+.circle3{
+    background-color: #00DED0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+}
+.circle3:active{
+    background-color: #93FFF8;
 }
 .input-div{
     background-color: #181F33;
@@ -114,42 +139,127 @@ main{
     justify-content: center;
     align-items: center;
 }
+.buttons-div button:hover{
+    cursor: pointer;
+}
 .buttons-div button h1{
     margin-bottom: -5px;
 }
-.btn-group1{
-    background-color: #EAE3DC;
-    box-shadow: 0px -4px 0px 0px #B3A497 inset;
-}
-.btn-group1 h1{
+.btn-group1-font{
     font-size: 32px;
     font-weight: 700;
     line-height: 29.44px;
     letter-spacing: -0.53px;
+}
+.btn-group2-font{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18.4px;
+    letter-spacing: -0.33px;
+}
+.btn-group3-font{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18.4px;
+    letter-spacing: -0.33px;
+}
+
+/* Theme 1 */
+.btn-group1-th1{
+    background-color: #EAE3DC;
+    box-shadow: 0px -4px 0px 0px #B3A497 inset;
+}
+.btn-group1-th1:active{
+    background-color: white;
+}
+.btn-group1-th1 h1{
     color: #434A59;
 }
-.btn-group2{
+.btn-group2-th1{
     background-color: #647198;
     box-shadow: 0px -4px 0px 0px #414E73 inset;
 }
-.btn-group2 h1{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 18.4px;
-    letter-spacing: -0.33px;
+.btn-group2-th1:active{
+    background-color: #A2B2E1;
+}
+.btn-group2-th1 h1{
     color: white;
 }
-.btn-group3{
+.btn-group3-th1{
     background-color: #D03F2F;
     box-shadow: 0px -4px 0px 0px #93261A inset;
 }
-.btn-group3 h1{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 18.4px;
-    letter-spacing: -0.33px;
+.btn-group3-th1:active{
+    background-color: #F96B5B;
+}
+.btn-group3-th1 h1{
     color: white;
 }
+
+/* Theme 2 */
+.btn-group1-th2{
+    background-color: #E5E4E1;
+    box-shadow: 0px -4px 0px 0px #A79E91 inset;
+}
+.btn-group1-th2:active{
+    background-color: white;
+}
+.btn-group1-th2 h1{
+    color: #36362C;
+}
+.btn-group2-th2{
+    background-color: #378187;
+    box-shadow: 0px -4px 0px 0px #1B6066 inset;
+}
+.btn-group2-th2:active{
+    background-color: #62B5BC;
+}
+.btn-group2-th2 h1{
+    color: white;
+}
+.btn-group3-th2{
+    background-color: #C85402;
+    box-shadow: 0px -4px 0px 0px #873901 inset;
+}
+.btn-group3-th2:active{
+    background-color: #FF8A38;
+}
+.btn-group3-th2 h1{
+    color: white;
+}
+
+/* Theme 3 */
+.btn-group1-th3{
+    background-color: #331C4D;
+    box-shadow: 0px -4px 0px 0px #881C9E inset;
+}
+.btn-group1-th3:active{
+    background-color: #6C34AC;
+}
+.btn-group1-th3 h1{
+    color: #FFE53D;
+}
+.btn-group2-th3{
+    background-color: #56077C;
+    box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+}
+.btn-group2-th3:active{
+    background-color: #8631AF;
+}
+.btn-group2-th3 h1{
+    color: white;
+}
+.btn-group3-th3{
+    background-color: #00DED0;
+    box-shadow: 0px -4px 0px 0px #6CF9F1 inset;
+}
+.btn-group3-th3:active{
+    background-color: #93FFF8;
+}
+.btn-group3-th3 h1{
+    color: #1A2327;
+}
+
 #Reset{
     grid-column: 1 / 3;
 }
@@ -170,5 +280,20 @@ main{
     .buttons-div{
         padding: 32px;
         gap: 24px;
+    }
+    .btn-group1-font{
+        font-size: 40px;
+        line-height: 36.8px;
+        letter-spacing: -0.67px;
+    }
+    .btn-group2-font{
+        font-size: 28px;
+        line-height: 25.76px;
+        letter-spacing: -0.47px;
+    }
+    .btn-group3-font{
+        font-size: 28px;
+        line-height: 25.76px;
+        letter-spacing: -0.47px;
     }
 }
