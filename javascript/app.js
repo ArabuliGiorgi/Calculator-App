@@ -159,6 +159,6 @@ function result(){
     if(negative){
         Str = '-' + Str;
     }
-    input.textContent = Str;
+    input.textContent = (Math.round(Number(Str)*10000)/10000).toString();
     clear = true;
 }
