@@ -110,7 +110,7 @@ main{
     align-items: center;
     justify-content: end;
     margin-bottom: 24px;
-    overflow: hidden;
+    overflow-x: auto;
 }
 #input{
     font-size: 40px;

@@ -72,7 +72,9 @@ function addDot(){
     if(temp === ""){
         input.textContent = Str + "0.";
     }else{
-        input.textContent = Str + ".";
+        if(!temp.includes('.')){
+            input.textContent = Str + ".";
+        }
     }
 }
 
