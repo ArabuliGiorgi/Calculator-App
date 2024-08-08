@@ -46,6 +46,9 @@ function addNum(num){
 function addOperation(str){
     clear = false;
     let Str = input.textContent;
+    if(Str === ""){
+        return;
+    }
     if(operations.includes(Str[Str.length - 1])){
         Str = Str.slice(0, Str.length - 1) + str;
     }else{
