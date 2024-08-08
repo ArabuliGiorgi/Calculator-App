@@ -15,6 +15,12 @@ body{
     align-items: center;
     transition: background-color 0.2s;
 }
+.Theme2{
+    background-color: #E6E6E6;
+}
+.Theme3{
+    background-color: #17062A;
+}
 main{
     width: 100%;
     max-width: 540px;
@@ -33,7 +39,13 @@ main{
     letter-spacing: -0.53px;
     color: #FFFFFF;
 }
-.Theme{
+.Theme2 #calc-logo{
+    color: #36362C;
+}
+.Theme3 #calc-logo{
+    color: #FFE53D;
+}
+.Theme-div{
     display: flex;
     gap: 26px;
     align-items: end;
@@ -45,6 +57,12 @@ main{
     letter-spacing: 1px;
     color: #FFFFFF;
     margin-bottom: 5px;
+}
+.Theme2 #theme-font{
+    color: #36362C;
+}
+.Theme3 #theme-font{
+    color: #FFE53D;
 }
 .theme-numbers{
     display: flex;
@@ -60,6 +78,12 @@ main{
     text-align: center;
     color: #FFFFFF;
 }
+.Theme2 .theme-number-fonts{
+    color: #36362C;
+}
+.Theme3 .theme-number-fonts{
+    color: #FFE53D;
+}
 #slider{
     background-color: #242D44;
     width: 71px;
@@ -70,34 +94,42 @@ main{
     align-items: center;
     padding: 0 5px;
 }
+.Theme2 #slider{
+    justify-content: center;
+    background-color: #D2CDCD;
+}
+.Theme3 #slider{
+    justify-content: end;
+    background-color: #1E0936;
+}
 #switch:hover{
     cursor: pointer;
 }
-.circle1{
+.circle{
     background-color: #D03F2F;
     width: 16px;
     height: 16px;
     border-radius: 50px;
 }
-.circle1:active{
+.circle:active{
     background-color: #F96B5B;
 }
-.circle2{
+.Theme2 .circle{
     background-color: #C85402;
     width: 16px;
     height: 16px;
     border-radius: 50px;
 }
-.circle2:active{
+.Theme2 .circle:active{
     background-color: #FF8A38;
 }
-.circle3{
+.Theme3 .circle{
     background-color: #00DED0;
     width: 16px;
     height: 16px;
     border-radius: 50px;
 }
-.circle3:active{
+.Theme3 .circle:active{
     background-color: #93FFF8;
 }
 .input-div{
@@ -112,6 +144,12 @@ main{
     margin-bottom: 24px;
     overflow-x: auto;
 }
+.Theme2 .input-div{
+    background-color: #EEEEEE;
+}
+.Theme3 .input-div{
+    background-color: #1E0936;
+}
 #input{
     font-size: 40px;
     font-weight: 700;
@@ -119,6 +157,12 @@ main{
     letter-spacing: -0.67px;
     margin-bottom: -10px;
     color: #FFFFFF;
+}
+.Theme2 #input{
+    color: #36362C;
+}
+.Theme3 #input{
+    color: #FFE53D;
 }
 .buttons-div{
     background-color: #242D44;
@@ -128,6 +172,12 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 13px;
+}
+.Theme2 .buttons-div{
+    background-color: #D2CDCD;
+}
+.Theme3 .buttons-div{
+    background-color: #1E0936;
 }
 .buttons-div button{
     min-width: 30px;
@@ -165,98 +215,98 @@ main{
 }
 
 /* Theme 1 */
-.btn-group1-th1{
+.btn-group1{
     background-color: #EAE3DC;
     box-shadow: 0px -4px 0px 0px #B3A497 inset;
 }
-.btn-group1-th1:active{
+.btn-group1:active{
     background-color: white;
 }
-.btn-group1-th1 h1{
+.btn-group1 h1{
     color: #434A59;
 }
-.btn-group2-th1{
+.btn-group2{
     background-color: #647198;
     box-shadow: 0px -4px 0px 0px #414E73 inset;
 }
-.btn-group2-th1:active{
+.btn-group2:active{
     background-color: #A2B2E1;
 }
-.btn-group2-th1 h1{
+.btn-group2 h1{
     color: white;
 }
-.btn-group3-th1{
+.btn-group3{
     background-color: #D03F2F;
     box-shadow: 0px -4px 0px 0px #93261A inset;
 }
-.btn-group3-th1:active{
+.btn-group3:active{
     background-color: #F96B5B;
 }
-.btn-group3-th1 h1{
+.btn-group3 h1{
     color: white;
 }
 
 /* Theme 2 */
-.btn-group1-th2{
+.Theme2 .btn-group1{
     background-color: #E5E4E1;
     box-shadow: 0px -4px 0px 0px #A79E91 inset;
 }
-.btn-group1-th2:active{
+.Theme2 .btn-group1:active{
     background-color: white;
 }
-.btn-group1-th2 h1{
+.Theme2 .btn-group1 h1{
     color: #36362C;
 }
-.btn-group2-th2{
+.Theme2 .btn-group2{
     background-color: #378187;
     box-shadow: 0px -4px 0px 0px #1B6066 inset;
 }
-.btn-group2-th2:active{
+.Theme2 .btn-group2:active{
     background-color: #62B5BC;
 }
-.btn-group2-th2 h1{
+.Theme2 .btn-group2 h1{
     color: white;
 }
-.btn-group3-th2{
+.Theme2 .btn-group3{
     background-color: #C85402;
     box-shadow: 0px -4px 0px 0px #873901 inset;
 }
-.btn-group3-th2:active{
+.Theme2 .btn-group3:active{
     background-color: #FF8A38;
 }
-.btn-group3-th2 h1{
+.Theme2 .btn-group3 h1{
     color: white;
 }
 
 /* Theme 3 */
-.btn-group1-th3{
+.Theme3 .btn-group1{
     background-color: #331C4D;
     box-shadow: 0px -4px 0px 0px #881C9E inset;
 }
-.btn-group1-th3:active{
+.Theme3 .btn-group1:active{
     background-color: #6C34AC;
 }
-.btn-group1-th3 h1{
+.Theme3 .btn-group1 h1{
     color: #FFE53D;
 }
-.btn-group2-th3{
+.Theme3 .btn-group2{
     background-color: #56077C;
     box-shadow: 0px -4px 0px 0px #BE15F4 inset;
 }
-.btn-group2-th3:active{
+.Theme3 .btn-group2:active{
     background-color: #8631AF;
 }
-.btn-group2-th3 h1{
+.Theme3 .btn-group2 h1{
     color: white;
 }
-.btn-group3-th3{
+.Theme3 .btn-group3{
     background-color: #00DED0;
     box-shadow: 0px -4px 0px 0px #6CF9F1 inset;
 }
-.btn-group3-th3:active{
+.Theme3 .btn-group3:active{
     background-color: #93FFF8;
 }
-.btn-group3-th3 h1{
+.Theme3 .btn-group3 h1{
     color: #1A2327;
 }
 

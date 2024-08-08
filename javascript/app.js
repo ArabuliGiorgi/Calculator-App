@@ -134,6 +134,7 @@ function result(){
         alert("Can't divide by zero.");
         return;
     }
+    result = Math.round(result*100000)/100000;
     result = result.toString();
     let negative = false;
     if(result.startsWith("-")){
@@ -162,6 +163,6 @@ function result(){
     if(negative){
         Str = '-' + Str;
     }
-    input.textContent = (Math.round(Number(Str)*10000)/10000).toString();
+    input.textContent = Str;
     clear = true;
 }
