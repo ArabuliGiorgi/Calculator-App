@@ -1,4 +1,4 @@
-const switch_key = document.getElementById("switch");
+const switch_key = document.getElementById("slider");
 const body = document.body;
 
 let theme = 1;

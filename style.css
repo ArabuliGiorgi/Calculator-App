@@ -93,6 +93,7 @@ main{
     justify-content: start;
     align-items: center;
     padding: 0 5px;
+    cursor: pointer;
 }
 .Theme2 #slider{
     justify-content: center;
@@ -101,9 +102,6 @@ main{
 .Theme3 #slider{
     justify-content: end;
     background-color: #1E0936;
-}
-#switch:hover{
-    cursor: pointer;
 }
 .circle{
     background-color: #D03F2F;
